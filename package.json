@@ -6,13 +6,8 @@
   "version": "1.0.0",
   "description": "Generic builder for TypeScript",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "dependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeppech/generic-builder-ts.git"
