@@ -3,7 +3,7 @@
     "typescript": "^4.0.5"
   },
   "name": "@jeppech/generic-builder-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generic builder for TypeScript",
   "main": "index.js",
   "dependencies": {},
