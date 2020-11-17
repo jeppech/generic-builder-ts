@@ -2,7 +2,7 @@
   "devDependencies": {
     "typescript": "^4.0.5"
   },
-  "name": "generic-builder-ts",
+  "name": "@jeppech/generic-builder-ts",
   "version": "1.0.0",
   "description": "Generic builder for TypeScript",
   "main": "index.js",
