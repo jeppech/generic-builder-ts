@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "name": "generic-builder-ts",
+  "version": "1.0.0",
+  "description": "Generic builder for TypeScript",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeppech/generic-builder-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "generic",
+    "builder",
+    "pattern"
+  ],
+  "author": "Jeppe Christiansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeppech/generic-builder-ts/issues"
+  },
+  "homepage": "https://github.com/jeppech/generic-builder-ts#readme"
+}

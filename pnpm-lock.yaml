@@ -1,0 +1,13 @@
+devDependencies:
+  typescript: 4.0.5
+lockfileVersion: 5.2
+packages:
+  /typescript/4.0.5:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+specifiers:
+  typescript: ^4.0.5
