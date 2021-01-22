@@ -1,6 +1,12 @@
 # Generic builder for TypeScript
 This is small helper class for making buildable objects.
 
+## Installation
+Use your favourite package manager.
+```
+pnpm add @jeppech/generic-builder-ts
+```
+
 ## Usage
 ```ts
 import { Builder } from '@jeppech/generic-builder-ts'
