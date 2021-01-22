@@ -1,7 +1,7 @@
 {
 	"extends": "./tsconfig.json",
   "compilerOptions": {
-    "module": "CommonJS",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
-    "outDir": "./lib/cjs",                    /* Redirect output structure to the directory. */
+    "module": "CommonJS",
+    "outDir": "./lib/cjs",
 	}
 }
