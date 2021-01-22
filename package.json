@@ -1,27 +1,42 @@
 {
-  "devDependencies": {
-    "typescript": "^4.0.5"
-  },
-  "name": "@jeppech/generic-builder-ts",
-  "version": "1.0.1",
-  "description": "Generic builder for TypeScript",
-  "main": "index.js",
-  "dependencies": {},
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeppech/generic-builder-ts.git"
-  },
-  "keywords": [
-    "typescript",
-    "generic",
-    "builder",
-    "pattern"
-  ],
-  "author": "Jeppe Christiansen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeppech/generic-builder-ts/issues"
-  },
-  "homepage": "https://github.com/jeppech/generic-builder-ts#readme"
+	"name": "@jeppech/generic-builder-ts",
+	"description": "Generic builder for TypeScript",
+	"version": "1.1.0",
+	"author": "Jeppe Christiansen",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeppech/generic-builder-ts.git"
+	},
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./lib/cjs/index.js",
+			"import": "./lib/esm/index.js"
+		}
+	},
+	"files": [
+		"lib/",
+		"README.md"
+	],
+	"scripts": {
+		"tsc": "tsc && tsc -p tsconfig.cjs.json",
+		"prepublishOnly": "tsc"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"typescript": "^4.0.5"
+	},
+	"keywords": [
+		"typescript",
+		"generic",
+		"builder",
+		"pattern"
+	],
+	"homepage": "https://github.com/jeppech/generic-builder-ts#readme",
+	"bugs": {
+		"url": "https://github.com/jeppech/generic-builder-ts/issues"
+	},
+	"license": "ISC"
 }
